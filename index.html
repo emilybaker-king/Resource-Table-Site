@@ -1,0 +1,105 @@
+
+<!DOCTYPE <!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Resource Table Site</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+        <script src="main.js"></script>
+        <meta name="description" content="This is a site we use to list resources for web development">
+        <meta name="author" content="Emily Baker-King">
+
+        <link rel="stylesheet" href="main.css">
+
+        <style>
+            body{
+                background-color: antiquewhite;
+                font-size: 30pt;
+            }
+
+            h1{
+                font-size: 30pt;
+                text-align: center;
+            }
+
+            table{
+                font-size: 20pt;
+            }
+        </style>
+
+    </head>
+
+    <body>
+    
+        <!-- header text for our site -->
+        <h1 style="color:darkcyan">My Web Development Resources</h1>
+
+        <!-- this is the anchor tag, which is used to link to stuff -->
+        <!-- the href attribute is the URL that the anchor tag navigates to -->
+        <!-- the target attribute fetermines how the link is opened by our browser (_blank opens a new tab) -->
+        <!-- <a href="https://www.google.com" target="_blank">Google</a> -->
+
+        <!-- This is the container for the HTML table -->
+        <table>
+            <!-- Tables in HTML consist of multiple rows and columns. Each row will have data that will be stored in each column. -->
+            <!-- Tables can also have headers for the columns that we can display -->
+
+            <!-- Each row for our table is a tr element -->
+            <tr>
+                <!-- th element is a table header -->
+                <th>Resource</th>
+                <th>Description</th>
+                <th>Link</th>
+            </tr>
+
+            <tr>
+                <!-- td elements are table data -->
+                <td>W3Schools</td>
+                <td>Web Development Tutorials and Documentation</td>
+                <td>
+                    <a href="https://www.w3schools.com" target="_blank">W3S</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Mozilla Developer Network</td>
+                <td>Web Development Resources and Documentation</td>
+                <td>
+                    <a href="https://developer.mozilla.org/en-US/" target="_blank">MDN</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Stack Overflow</td>
+                <td>The Ultimate Place for Coding Question Answers</td>
+                <td>
+                    <a href="https://stackoverflow.com/" target="_blank">SO</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Chrome Dev Tools</td>
+                <td>How to Use This Crazy Nice Debugging Tool</td>
+                <td>
+                    <a href="https://developers.google.com/web/tools/chrome-devtools/?utm_source=dcc&utm_medium=redirect&utm_campaign=2018Q2" target="_blank">CDT</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>VSCode Keyboard Shortcuts</td>
+                <td>List of Keyboard Shortcuts for VSCode</td>
+                <td>
+                    <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf" target="_blank">VSC</a>
+                </td>
+            </tr>
+
+        </table>
+
+    </body>
+
+</html>

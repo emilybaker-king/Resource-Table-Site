@@ -1,0 +1,52 @@
+
+/* comments in css have to be done like this, which is different than in html */
+
+
+/* CSS Rulesets consist of three parts:
+1: Selector to the select what element you're styling
+2: Declaration block where your CSS goes
+3: Declaration of CSS rules inside the declaration block
+ */
+
+ table, th, td {
+    /* This will apply to all 3 things instead of just one */
+    border-width: 1px;
+    border-color: darkgreen;
+    border-style: dashed;
+    border-radius: 20px;
+ }
+
+
+table {
+    /* Set the width of the elements to 100% of the width of the parent element */
+    width: 100%;
+    /* Set the background color of the table element to something other than the background */
+    background-color: burlywood;
+    /* This makes the colored text box be rounded */
+    border-radius: 20px;
+    /* This makes there be a border around the colored text box */
+    border: 3px;
+    /* This tells what type of border it will be */
+    border-style: double;
+    /* This tells the border color */
+    border-color: black
+}
+
+h1 {
+    /* Aligning the text for the h1 to corner */
+    text-align: center;
+}
+
+th {
+    /* Upping the font size for the table headers */
+    font-size: 20pt;
+    /* Underline the table headers */
+    text-decoration: underline;
+}
+
+td {
+    /* Center the text for the tabke data elements */
+    text-align: center;
+    /* Upping the font size for the table data elements */
+    font-size: 16pt;
+}
